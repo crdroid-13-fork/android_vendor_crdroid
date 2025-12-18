@@ -224,10 +224,10 @@ ifneq (,$(filter 5.10 5.15, $(TARGET_KERNEL_VERSION)))
 TARGET_USE_DISPLAY_VENDOR_FREEZER := true
 endif
 
-ifneq ($(TARGET_USE_DISPLAY_VENDOR_FREEZER),true)
+#ifneq ($(TARGET_USE_DISPLAY_VENDOR_FREEZER),true)
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/display
-endif
+#endif
 
 endif
 
