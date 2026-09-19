@@ -2,7 +2,7 @@ PRODUCT_VERSION_MAJOR = 13
 PRODUCT_VERSION_MINOR = 0
 
 # Increase CR Version with each major release.
-CR_VERSION := 9.37
+CR_VERSION := 9.38
 
 # Internal version
 ifeq ($(WITH_GMS),true)
